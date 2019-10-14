@@ -4,4 +4,4 @@
 
 I will make changes to this **readme** if I do a lot of stuff.
 
-Homework-two: https://fatyoshi.github.io/215-repo/homework-two/ 
+[Homework-two:](https://fatyoshi.github.io/215-repo/homework-two/)
