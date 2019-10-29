@@ -152,3 +152,38 @@ p {
     width: 453px;
   }
 }
+.input-three {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+    width: 698px;
+  }
+  p {
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+}
+.input-four {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+    width: 698px;
+  }
+  p {
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: $site-black;
+  }
+}
