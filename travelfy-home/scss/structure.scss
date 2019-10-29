@@ -187,3 +187,43 @@ p {
     color: $site-black;
   }
 }
+.input-five {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+    width: 103px;
+  }
+  p {
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: $site-black;
+  }
+}
+.input-six {
+  padding-top: 20px;
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+    width: 818px;
+    height: 192px;
+  }
+}
+
+.booking-button {
+  margin-top: 20px;
+  background-color: $site-blue;
+  color: $site-white;
+  width: 813px;
+  height: 40px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
