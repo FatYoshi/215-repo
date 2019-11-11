@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Amatic SC", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+/* .tours {
+  max-width: 818px;
+  margin: -35px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .tour-home-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 236px;
+    height: 304px;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.2),
+        rgba($site-black, 0.2)
+      ),
+      url("../images/tourimg/tour-01.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1 {
+      padding-top: 30px;
+      font-size: 60px;
+      text-transform: uppercase;
+    }
+    p {
+      margin: -30px auto 0 auto;
+      font-size: 30px;
+    }
+  }
+  .tour-home-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 236px;
+    height: 304px;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.2),
+        rgba($site-black, 0.2)
+      ),
+      url("../images/tourimg/tour-02.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1 {
+      padding-top: 30px;
+      font-size: 60px;
+      text-transform: uppercase;
+    }
+    p {
+      margin: -30px auto 0 auto;
+      font-size: 30px;
+    }
+  }
+  .tour-home-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 236px;
+    height: 304px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.2),
+        rgba($site-black, 0.2)
+      ),
+      url("../images/tourimg/tour-03.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1 {
+      padding-top: 30px;
+      font-size: 60px;
+      text-transform: uppercase;
+    }
+    p {
+      margin: -30px auto 0 auto;
+      font-size: 30px;
+    }
+  }
+  .submit-button {
+    margin-top: 75px;
+    background-color: $site-blue;
+    color: $site-white;
+    width: 133px;
+    height: 40px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}*/
+.location-container {
+  max-width: 1280px;
+  margin: -25px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 304px;
+  display: flex;
+  justify-content: center;
+
+  .location {
+    height: 304px;
+    width: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+
+    .country {
+      text-transform: uppercase;
+    }
+
+    .cost {
+      margin-top: -16px;
+      margin-bottom: 70px;
+    }
+
+    .button {
+      text-transform: uppercase;
+      background-color: $site-blue;
+      width: 133px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .israel {
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.2),
+        rgba($site-black, 0.2)
+      ),
+      url("../images/tourimg/tour-01.jpg");
+    color: $site-white;
+  }
+
+  .usa {
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.2),
+        rgba($site-black, 0.2)
+      ),
+      url("../images/tourimg/tour-02.jpg");
+    color: $site-white;
+  }
+
+  .austrailia {
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.2),
+        rgba($site-black, 0.2)
+      ),
+      url("../images/tourimg/tour-03.jpg");
+    color: $site-white;
+  }
+}
+@media (max-width: 1000px) {
+  .location-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+
+    .location {
+      margin: 20px 0;
+    }
+  }
+}
+
+.booking {
+  max-width: 814px;
+  margin: 70px auto;
+  h1 {
+    font-size: 60px;
+  }
+  input {
+    height: 58px;
+  }
+}
+.input-one {
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .left-inputbox {
+    width: 344px;
+  }
+  .right-inputbox {
+    width: 453px;
+  }
+}
+.input-two {
+  padding-top: 20px;
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .left-inputbox {
+    width: 344px;
+  }
+  .right-inputbox {
+    width: 453px;
+  }
+}
+.input-three {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+    width: 698px;
+  }
+  p {
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+}
+.input-four {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+    width: 698px;
+  }
+  p {
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: $site-black;
+  }
+}
+.input-five {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 103px;
+  }
+  p {
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: $site-black;
+  }
+}
+.input-six {
+  padding-top: 20px;
+  input {
+    border: 1px solid $site-blue;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 818px;
+    height: 192px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .booking {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    .input-one {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0;
+    }
+    .left-inputbox {
+      width: 100%;
+      max-width: 344px;
+    }
+    .right-inputbox {
+      width: 100%;
+      max-width: 344px;
+    }
+    .input-three {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      input {
+        width: 100%;
+        max-width: 698px;
+      }
+    }
+    .input-four {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      input {
+        width: 100%;
+        max-width: 698px;
+      }
+    }
+  }
+}
+.booking-button {
+  margin-top: 20px;
+  background-color: $site-blue;
+  color: $site-white;
+  width: 100%;
+  max-width: 813px;
+  height: 40px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
